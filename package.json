@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/mongoose": "^5.7.27",
+    "mongoose": "^5.9.19",
     "next": "^9.4.4",
+    "node-nats-streaming": "^0.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
