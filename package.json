@@ -1,7 +1,6 @@
 {
   "name": "ticketing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/mongoose": "^5.7.27",
+    "mongoose": "^5.9.19",
     "next": "^9.4.4",
+    "node-nats-streaming": "^0.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehoChang/ticketing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TehoChang/ticketing/issues"
+  },
+  "homepage": "https://github.com/TehoChang/ticketing#readme",
+  "description": ""
 }
