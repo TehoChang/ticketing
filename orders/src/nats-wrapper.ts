@@ -27,3 +27,4 @@ class NatsWrapper {
 }
 
 export const natsWrapper = new NatsWrapper();
+//this natsWrapper is going to give us access to an active Nats Client

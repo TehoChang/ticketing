@@ -13,7 +13,7 @@ router.post(
   [
     body('title').not().isEmpty().withMessage('Title is required'),
     body('price')
-      .isFloat({ gt: 0 })
+      .isFloat({ gt: 0 }) //greater than
       .withMessage('Price must be greater than 0'),
   ],
   validateRequest,
@@ -25,7 +25,7 @@ router.post(
       price,
       userId: req.currentUser!.id,
     });
-    await ticket.save();
+    await ticket.save(); // 存近mongoose中
     new TicketCreatedPublisher(natsWrapper.client).publish({
       id: ticket.id,
       title: ticket.title,
