@@ -1,6 +1,6 @@
 {
-  "name": "@sgtickets/common",
-  "version": "1.0.24",
+  "name": "@tehotickets/common",
+  "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
